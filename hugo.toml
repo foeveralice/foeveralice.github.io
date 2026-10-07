@@ -1,0 +1,4 @@
+baseURL = 'https://foeveralice.github.io/my-blog/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = "hugo-theme-stack"
