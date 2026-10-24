@@ -15,5 +15,26 @@ theme = "hugo-theme-stack"
     name = "文章"
     pageRef = "/post"
     weight = -90
+   -identifier = "that is easy"
     [menu.main.params]
         icon = "archives"
+
+[[menu.main]]
+    name = "Github"
+    pageRef = "/link"
+    weight = -80
+    [menu.main.params]
+        icon = "brand-github"
+
+[params]        
+[Params.sidebar]
+    conpact = "false"
+    avatar = "img/alice.png"
+
+[Params.article]
+    readtime = "true"
+
+[services.disqus]
+    shortname = "hugo-theme-stack"
+    enable = "true"
+        
