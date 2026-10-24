@@ -29,7 +29,7 @@ theme = "hugo-theme-stack"
 [params]        
 [Params.sidebar]
     conpact = "false"
-    avatar = "img/alice.png"
+    avatar = "assets/img/alice.png"
 
 [Params.article]
     readtime = "true"
