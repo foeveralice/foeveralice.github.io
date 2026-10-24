@@ -2,3 +2,18 @@ baseURL = 'https://foeveralice.github.io/my-blog/'
 locale = 'en-us'
 title = '博客还在施工ing，请耐心等待'
 theme = "hugo-theme-stack"
+
+
+[[menu.main]]
+    name = "首页"
+    pageRef = "/"
+    weight = -100
+    [menu.main.params]
+        icon = "home"
+
+[[menu.main]]
+    name = "文章"
+    pageRef = "/post"
+    weight = -90
+    [menu.main.params]
+        icon = "archives"
