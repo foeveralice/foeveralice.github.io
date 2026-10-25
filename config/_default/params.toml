@@ -1,0 +1,16 @@
+# config/_default/params.toml
+
+[widgets]
+  # 主页侧边栏部件配置
+  homepage = [
+    { type = "search" },
+    { type = "archives", params = { limit = 5 } },
+    # 关键配置：使用 taxonomy 部件来显示“分类”并自定义标题
+    { type = "taxonomy", params = { taxonomy = "categories", limit = 10, title = "我的分类" } },
+    { type = "tag-cloud", params = { limit = 20 } },
+  ]
+
+  # 文章页侧边栏部件配置
+  page = [
+    { type = "toc" },
+  ]
